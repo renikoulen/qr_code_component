@@ -35,8 +35,7 @@
 
 
 body {
-  max-width:1440px;
-  background-color:hsl(220, 15%, 55%);
+  background-color:hsl(212, 45%, 89%) ;
   font-family: "Outfit", sans-serif;
   text-align: center;
 }
@@ -54,6 +53,8 @@ p{
 }
 
 .container {
+  max-width:1440px;
+  background-color: white;
   margin: 0 auto;
   margin-top: 150px;
   background-color: white;
@@ -81,4 +82,24 @@ img {
   width: 290px;
   border-radius: 10px;
  
+}
+
+
+@media(max-width:375px){
+  body{
+    width:375px;
+    margin-top:20px;
+    background-color:hsl(212, 45%, 89%) ;
+  }
+
+  .container {
+  max-width:375px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 150px;
+  background-color: white;
+  width: 320px;
+  height: 490px;
+  border-radius: 10px;
+}
 }
