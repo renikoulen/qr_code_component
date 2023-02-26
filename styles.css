@@ -33,27 +33,24 @@
       format("svg"); /* Legacy iOS */
 }
 
-
 body {
-  background-color:hsl(212, 45%, 89%) ;
-  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  font-family: Outfit, sans-serif;
   text-align: center;
 }
 
-h1{
-  font-weight:700;
+h1 {
+  font-weight: 700;
   font-size: 20px;
-
-
 }
 
-p{
+p {
   font-size: 15px;
   color: hsl(220, 15%, 55%);
 }
 
 .container {
-  max-width:1440px;
+  max-width: 1440px;
   background-color: white;
   margin: 0 auto;
   margin-top: 150px;
@@ -63,43 +60,40 @@ p{
   border-radius: 10px;
 }
 
-.text{
+.text {
   text-align: center;
-  margin:0 auto;
-  width:260px;
+  margin: 0 auto;
+  width: 260px;
 }
 
-.attribution{
-
-  margin:0 auto;
-  padding:150px;
-  font-size:12px;
+.attribution {
+  margin: 0 auto;
+  padding: 150px;
+  font-size: 12px;
 }
 
 img {
-  margin-top:15px;
+  margin-top: 15px;
   margin-bottom: 10px;
   width: 290px;
   border-radius: 10px;
- 
 }
 
-
-@media(max-width:375px){
-  body{
-    width:375px;
-    margin-top:20px;
-    background-color:hsl(212, 45%, 89%) ;
+@media (max-width: 375px) {
+  body {
+    width: 375px;
+    margin-top: 20px;
+    background-color: hsl(212, 45%, 89%);
   }
 
   .container {
-  max-width:375px;
-  background-color: white;
-  margin: 0 auto;
-  margin-top: 150px;
-  background-color: white;
-  width: 320px;
-  height: 490px;
-  border-radius: 10px;
-}
+    max-width: 375px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: white;
+    width: 320px;
+    height: 490px;
+    border-radius: 10px;
+  }
 }
